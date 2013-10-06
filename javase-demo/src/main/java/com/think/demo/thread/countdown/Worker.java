@@ -30,7 +30,8 @@ public class Worker implements Runnable{
 	private void doWork() throws Exception {
 		LOG.debug(name+" is do working...");
 		Thread.currentThread().sleep(3000);
-		/*if("最后一个操作!".equalsIgnoreCase(name)){
+		//TODO 测试异常处理
+		/*if(!"最后一个操作!".equalsIgnoreCase(name)){
 			throw new RuntimeException("测试forkJoin异常处理");
 		}*/
 		LOG.debug(name+" done!");
