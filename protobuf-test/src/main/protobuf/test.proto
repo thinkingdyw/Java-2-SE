@@ -1,8 +1,0 @@
-package com.protobuf.demo;
-
-option java_outer_classname = "UserProxy";
-
-message User{
-	optional string name = 20;
-	optional int32 age = 1;
-}
