@@ -194,8 +194,4 @@ public final class MathUtil {
 			}
 		}
 	}
-	
-	public static void main(String[] args) {
-		System.out.println(add(null,null));
-	}
 }
