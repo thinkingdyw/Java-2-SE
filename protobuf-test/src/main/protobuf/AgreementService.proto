@@ -15,3 +15,9 @@ message Agreement{
 message Response{
 	repeated Agreement agreements = 1;
 }
+
+message JavaBean {
+	required int32 agr_no = 1;
+	required int32 page = 2;
+	required int32 page_number = 3;
+}

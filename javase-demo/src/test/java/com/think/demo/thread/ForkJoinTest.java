@@ -6,10 +6,10 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 
-import com.think.demo.thread.countdown.Fork;
-import com.think.demo.thread.countdown.ForkJoin;
-import com.think.demo.thread.countdown.Join;
-import com.think.demo.thread.countdown.Worker;
+import com.think.demo.thread.countdown.forkjoin.Fork;
+import com.think.demo.thread.countdown.forkjoin.ForkJoin;
+import com.think.demo.thread.countdown.forkjoin.Join;
+import com.think.demo.thread.countdown.forkjoin.Worker;
 
 public class ForkJoinTest {
 	private Logger LOG = Logger.getLogger(getClass());

@@ -13,6 +13,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<org.slf4j.version>1.6.1</org.slf4j.version>
+		<apache.commons.lang>2.5</apache.commons.lang>
 	</properties>
 
 	<dependencies>
@@ -45,6 +46,11 @@
 			<artifactId>log4j</artifactId>
 			<version>1.2.16</version>
 			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>${apache.commons.lang}</version>
 		</dependency>
 	</dependencies>
 </project>

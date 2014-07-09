@@ -1,4 +1,4 @@
-package com.think.demo.thread.countdown;
+package com.think.demo.thread.countdown.forkjoin;
 
 
 public interface Action{

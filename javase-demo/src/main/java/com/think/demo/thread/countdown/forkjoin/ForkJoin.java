@@ -1,4 +1,4 @@
-package com.think.demo.thread.countdown;
+package com.think.demo.thread.countdown.forkjoin;
 
 import java.util.List;
 import java.util.concurrent.CountDownLatch;

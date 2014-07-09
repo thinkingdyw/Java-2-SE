@@ -61,8 +61,8 @@ public final class MathUtil {
 		return addIgnoreNull(values);
 	}
 	/**
-	 * 加法操作
 	 * @param ignoreNull 是否忽略null值  例如：true:忽略null值;false:参数为null，抛异常
+	 * @param precision 保留小数位数
 	 * @param values
 	 * @return
 	 * @throws IllegalArgumentException
